@@ -1,38 +1,43 @@
-# Base limpa de API em Node
+# Project to learn prisma
 
-Este repositório serve exclusivamente para oferecer uma base rápida para criação de APIs em Node.
-
-Ele possui apenas a configuração básica do Express com Typescript e o primeiro router.
-
-## Instalação
-Você pode clonar o repositório e rodar:
-```bash
+## Installation 
+You can use a 'git clone' to clone the repository
+```
+git clone <repo url>
+```
+After that, do the command below
+```
 npm install
 ```
-
-Depois clonar o arquivo `.env.example` para `.env.local`:
-```bash
-cp .env.example .env.local
+### Maybe you have to install some dev dependencies too, if it isn't installed with npm install
 ```
-E alterar as variáveis de ambiente.
+npm i -D @types/cors @types/express @types/node prisma tsx typescript
+```
+After clone the file `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+And change the enviroment variables
+### In the .env file, you need to put your database url
 
-## Uso
-Para rodar o projeto, utilize o comando padrão:
+### 
+## How to use
+To run the project, use:
 ```bash
 npm run dev
 ```
 
-## Adicionais
-Caso queira, é interessante remover o `origin` do repositório, para adicionar seu próprio repositório remoto e continuar o desenvolvimento.
+## Additional
+If you want, you can remove`origin` of repository, to add your own repository and continue the development
 
-Para ver os repositórios remotos:
+To see the remote repositories:
 ```bash
 git remote -v
 ```
 
-Para trocar o origin:
+To change the origin:
 ```bash
 git remote remove origin
 git remote add origin <url>
 ```
-Sendo `<url>` o diretório do seu repositório remoto.
+The `<url>` is the directory of your repository.
