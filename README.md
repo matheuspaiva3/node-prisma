@@ -13,7 +13,7 @@ npm install
 ```
 npm i -D @types/cors @types/express @types/node prisma tsx typescript
 ```
-After clone the file `.env.example` to `.env`:
+After, clone the file `.env.example` to `.env`:
 ```bash
 cp .env.example .env
 ```
